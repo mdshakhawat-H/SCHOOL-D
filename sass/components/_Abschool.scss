@@ -1,0 +1,49 @@
+@import "../mixins/mixin";
+@import "../variables/variable";
+#abschool{
+    padding: 100px 0;
+    .abschool_head{
+        h2{
+            text-align: center;
+            text-transform: capitalize;
+            @include head ($fw: 700 , $fs: 48px ,$clr: $primary_color);
+        }
+    }
+    marquee{
+        background-color: #cec9c9;
+        padding: 10px 0;
+        position: relative;
+        &::after{
+            content: '';
+            height: 100%;
+            width: 25px;
+            background-color: #cec9c9;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        &::before{
+            content: '';
+            height: 100%;
+            width: 25px;
+            background-color: #cec9c9;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+        p{
+           @include descrip ($fw: 400 , $fs: 18px , $clr: $secondery_color);
+           padding: 0 20px;
+        }
+    }
+    .abs_description{
+        margin-top: 50px;
+        h3{
+
+        }
+        p{
+            font-style: italic;
+        }
+    }
+}

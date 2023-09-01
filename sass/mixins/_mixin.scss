@@ -5,7 +5,7 @@
     font-weight: $fw;
     color: $clr;
 }
-@mixin descrip ($fw: 400 , $fs: 20px , $clr: $secondery_color){
+@mixin descrip ($fw: 400 , $fs: 18px , $clr: $secondery_color){
     font-family: $secondery_font;
     font-size: $fs;
     font-weight: $fw;
