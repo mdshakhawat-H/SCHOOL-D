@@ -21,7 +21,7 @@
         justify-content: center;
         gap: 20px;
         padding: 5px 0;
-        background-color: pink;
+        border: 1ps solid #087096;
     }
     nav .log_reg a {
         font-size: 12px;
@@ -180,8 +180,14 @@
         padding-top: 20px;
         font-size: 5px;
     }
+    #footer .foot_head {
+        margin-top: 10px;
+    }
     #footer .foot_head h2 {
         font-size: 20px;
+    }
+    #footer .foot_head ul {
+        margin-top: 12px;
     }
     #footer .foot_head ul li a {
         font-size: 12px;
@@ -216,7 +222,200 @@
         font-size: 12px;
     }
  }
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    nav .navbar-brand {
+        font-size: 40px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    nav .nav_list {
+        gap: 12px;
+    }
+    nav .nav_list li a {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+    .log_reg{
+        padding: 5px 0;
+        border: 1.5px solid #087096;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    nav .log_reg a {
+        font-size: 14px;
+    }
+    #banner {
+        padding: 70px 0;
+    }
+    #banner .banner_txt .bn_head h1 {
+        font-size: 35px;
+        padding: 0 0px 0 0px;
+        margin: 0;
+    }
+    #banner .banner_txt .bn_head {
+        height: 60px;
+    }
+    #banner .banner_txt p {
+        font-size: 15px;
+        padding: 7px 7px;
+        margin-top: 20px;
+    }
+    #banner .banner_txt .admit {
+        margin-top: 20px;
+    }
+    #banner .banner_txt .admit a {
+        font-size: 15px;
+        padding: 5px 30px;
+    }
+    #welcome {
+        padding: 60px 0;
+    }
+    #welcome .head_master p {
+        font-size: 15px;
+        letter-spacing: 7px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    #welcome .head_master h2 {
+        font-size: 26px;
+        margin-left: 15px;
+    }
+    #welcome .welc_txt p {
+        font-size: 15px;
+        letter-spacing: 15px;
+    }
+    #welcome .welc_txt h2 {
+        font-size: 26px;
+        font-weight: 500;
+    }
+    #welcome .welc_txt .welc_des {
+        font-size: 0;
+    }
+    #oCourse {
+        padding: 60px 0;
+    }
+    #oCourse .oC_head h2 {
+        padding: 0 0 30px;
+        font-size: 30px;
+    }
+    #oCourse .OC_slider .OC_item .crsd h2 a {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    #oCourse .OC_slider .OC_item .crsd p {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    #oCourse .OC_slider .OC_item .crsd .see_course_d a {
+        font-size: 15px;
+    }
+    #oCourse .OC_slider .slick-prev {
+        left: 35%;
+    }
+    #oCourse .OC_slider .slick-next {
+        right: 35%;
+    }
+    #teacher {
+        padding: 60px 0;
+    }
+    #teacher .teacher_s .slick-prev {
+        left: 35%;
+    }
+    #teacher .teacher_s .slick-next {
+        right: 35%;
+    }
+    #teacher .teach_head h2 {
+        font-size: 30px;
+    }
+    #ptest {
+        padding: 60px 0;
+    }
+    #ptest .test_head h2 {
+        font-size: 30px;
+    }
+    #ptest .ptest_slider .ptests_item {
+        margin: 20px 0 50px ;
+    }
+    #ptest .ptest_slider .ptests_item p {
+        font-size: 15px;
+        width: 80%;
+    }
+    #ptest .ptest_slider .ptests_item .test_pic .test_name a {
+        font-size: 20px;
+    }
+    #ptest .ptest_slider .ptests_item .test_pic .test_name p {
+        font-size: 14px;
+    }
+    #students {
+        padding: 60px 0;
+    }
+    #students .student_head h2 {
+        font-size: 30px;
+    }
+    #students .students_main_slider {
+        margin-top: 30px;
+    }
+    #students .students_main_slider .student_track .stu_item h3 {
+        font-size: 20px;
+    }
+    #students .students_main_slider .student_track .stu_item p {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    #students .students_main_slider .student_track .stu_item a {
+        font-size: 15px;
+    }
+    #footer {
+        padding: 60px 0 0;
+    }
+    #footer .foot_logo span {
+        font-size: 37px;
+    }
+    #footer .foot_logo p {
+        font-size: 10px;
+    }
+    #footer .foot_logo ul li span, #footer .foot_logo ul li a {
+        font-size: 10px;
+    }
+    #footer .foot_logo ul li {
+        gap: 8px;
+    }
+    #footer .foot_logo ul {
+        margin-top: 30px;
+        gap: 10px;
+    }
+    #footer .foot_logo h3 {
+        font-size: 20px;
+        margin-top: 23px;
+    }
+    #footer .foot_logo .social li a {
+        font-size: 30px;
+    }
+    #footer .foot_head {
+        margin-top: 15px;
+    }
+    #footer .foot_head ul li a {
+        font-size: 15px;
+    }
+    #footer .foot_head ul {
+        margin-top: 15px;
+        gap: 5px;
+    }
+    #footer .foot_head h2 {
+        font-size: 30px;
+    }
+    #footer .copy_right {
+        padding: 10px 0;
+    }
+    #footer .copy_right p {
+        font-size: 15px;
+    }
+ }
 @media (min-width: 767.98px) and (max-width: 991.98px) {  }
 @media (min-width: 991.98px) and (max-width: 1199.98px) {  }
 @media (min-width: 1200px){  }
