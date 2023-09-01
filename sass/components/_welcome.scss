@@ -1,0 +1,40 @@
+@import "../variables/variable";
+@import "../mixins/mixin";
+#welcome{
+    padding: 100px 0;
+    .head_master{
+        img{
+            width: 100%;
+        }
+        p{
+            @include descrip ($fw: 400 , $fs: 20px , $clr: $secondery_color);
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        h2{
+            @include  head ($fw: 500 , $fs: 40px ,$clr: $primary_color);
+            margin-left: 30px;
+        }
+    }
+    .welc_txt{
+        p{
+            @include descrip ($fw: 400 , $fs: 20px , $clr: $secondery_color);
+            text-transform: uppercase;
+            letter-spacing: 20px;
+        }
+        h2{
+            @include  head ($fw: 700 , $fs: 40px ,$clr: $primary_color);
+        }
+        .welc_des{
+            @include descrip ($fw: 400 , $fs: 18px , $clr: $secondery_color);
+            text-transform: lowercase;
+            letter-spacing: 0px;
+            span{
+                display: block;
+                margin-top: 50px;
+            }
+        }
+    }
+}

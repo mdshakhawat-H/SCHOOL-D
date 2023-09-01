@@ -1,0 +1,13 @@
+@import "../variables/variable";
+@mixin head ($fw: 500 , $fs: 40px ,$clr: $primary_color){
+    font-family: $primary_font;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $clr;
+}
+@mixin descrip ($fw: 400 , $fs: 20px , $clr: $secondery_color){
+    font-family: $secondery_font;
+    font-size: $fs;
+    font-weight: $fw;
+    color: $clr;
+}

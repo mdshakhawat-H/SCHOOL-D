@@ -1,0 +1,38 @@
+@import "../variables/variable";
+@import "../mixins/mixin";
+#banner{
+    padding: 150px 0;
+    .banner_txt{
+      .bn_head{
+         display: flex;
+         align-items: center;
+         width: fit-content;
+         height: 100px;
+         background-color: rgba(8, 112, 150, 0.623);
+         h1{
+            @include head ($fw: 700 , $fs: 56px , $clr: white);
+            padding: 0 10px 0 20px;
+         }
+      }
+      p{
+        @include  descrip ($fw: 400 , $fs: 20px , $clr: white);
+        padding: 20px 10px;
+        margin-top: 50px;
+        width: fit-content;
+        background-color: rgba(8, 112, 150, 0.623);
+      }
+      .admit{
+         margin-top: 50px;
+         a{
+            background-color: rgba(8, 112, 150, 0.623);
+            @include  descrip ($fw: 400 , $fs: 20px , $clr: #fff);
+            padding: 10px 30px;
+            transition: .3s;
+            &:hover{
+               background-color: $secondery_color;
+            }
+         }
+      }
+    }
+}
+

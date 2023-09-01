@@ -1,0 +1,78 @@
+@import "../mixins/Mixin";
+@import "../variables/Variable";
+#teacher{
+    padding: 100px 0;
+    .teach_head{
+        text-align: center;
+        h2{
+            @include head ($fw: 700 , $fs: 48px ,$clr: $primary_color);
+        }
+    }
+    .teacher_s{
+        margin-top: 50px;
+        .slick-arrow{
+            position: absolute;
+            padding: 5px 20px;
+            border: 2px solid $primary_color;
+            background: transparent;
+            color: $primary_color;
+            transition: .3s;
+            &:hover{
+                color: white;
+                background-color: $primary_color;
+            }
+        }
+        .slick-prev{
+            top: 0;
+            left: 40%;
+            z-index: 1;
+        }
+        .slick-next{
+            top: 0;
+            right: 40%;
+        }
+        .teacher_itm{
+            position: relative;
+            margin: 50px 10px 0px;
+            img{
+                width: 100%;
+            }
+            &:hover .teacher_desc{
+                transform: scale(1);
+            }
+            .teacher_desc{
+                position: absolute;
+                bottom: 0%;
+                left: 0%;
+                width: 100%;
+                transform: translateX(-50%);
+                padding: 30px;
+                background-color: rgba(8, 112, 150, 0.581);
+                transform: scale(0);
+                transition: .4s;
+                h3{
+                    @include head ($fw: 500 , $fs: 30px ,$clr: #fff);
+                }
+                p{
+                    @include descrip ($fw: 400 , $fs: 20px , $clr: #fff);
+                    font-style: italic;
+                    text-transform: capitalize;
+                }
+                ul{
+                    display: flex;
+                    li{
+                        a{
+                            color: $primary_color;
+                            font-size: 30px;
+                            padding: 10px;
+                            transition: .3s;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

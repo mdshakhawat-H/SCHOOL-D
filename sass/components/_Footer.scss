@@ -1,0 +1,89 @@
+@import "../mixins/Mixin";
+@import "../variables/Variable";
+#footer{
+    padding: 100px 0 0;
+    // background-color: rgba(11, 8, 73, 0.249);
+    background-color: #BBBBBB;
+    .foot_logo{
+        span{
+            font-family: $brand_font;
+            font-weight: 700;
+            font-size: 70px;
+            font-style: italic;
+            text-transform: capitalize;
+        }
+        p{
+            padding-top: 20px;
+            @include descrip ($fw: 400 , $fs: 18px , $clr: #fff);
+        }
+        ul{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li{
+                display: flex;
+                gap: 15px;
+                span , a{
+                    @include descrip ($fw: 400 , $fs: 18px , $clr: #fff);
+                }
+            }
+        }
+        h3{
+            @include  head ($fw: 500 , $fs: 30px ,$clr: #fff);
+            margin-top: 50px;
+        }
+        .social{
+            display: flex;
+            gap: 20px;
+            flex-direction: row;
+            margin-top: 10px;
+            li{
+                a{
+                    font-size: 40px;
+                    transition: .3s;
+                    &:hover{
+                        color: pink;
+                    }
+                }
+            }
+        }
+    }
+    .foot_head{
+        text-align: center;
+        margin-top: 40px;
+        h2{
+            @include  head ($fw: 500 , $fs: 40px ,$clr: #fff);
+            text-transform: uppercase;
+        }
+        ul{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            li{
+                a{
+                    @include  descrip ($fw: 400 , $fs: 18px , $clr: #fff);
+                    padding: 5px 20px;
+                    transition: .3s;
+                    &:hover{
+                        background-color: $primary_color;
+                    }
+                }
+            }
+        }
+    }
+    .copy_right{
+        padding: 20px 0;
+        width: 100%;
+        background-color: $secondery_color;
+        display: flex;
+        justify-content: center;
+        p{
+            @include  descrip ($fw: 400 , $fs: 18px , $clr: $primary_color);
+            a{
+                color: #fff;
+            }
+        }
+    }
+}

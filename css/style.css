@@ -1,0 +1,627 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul, ol, li, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav .navbar-brand {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+nav .nav_list {
+  gap: 20px;
+}
+nav .nav_list li a {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #087096;
+  text-transform: capitalize;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+nav .nav_list li a:hover {
+  color: white;
+  background-color: #087096;
+}
+nav .log_reg a {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #087096;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+nav .log_reg a:hover {
+  color: white;
+  background-color: #087096;
+}
+
+#banner {
+  padding: 150px 0;
+}
+#banner .banner_txt .bn_head {
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100px;
+  background-color: rgba(8, 112, 150, 0.623);
+}
+#banner .banner_txt .bn_head h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+  padding: 0 10px 0 20px;
+}
+#banner .banner_txt p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  padding: 20px 10px;
+  margin-top: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgba(8, 112, 150, 0.623);
+}
+#banner .banner_txt .admit {
+  margin-top: 50px;
+}
+#banner .banner_txt .admit a {
+  background-color: rgba(8, 112, 150, 0.623);
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 30px;
+  transition: 0.3s;
+}
+#banner .banner_txt .admit a:hover {
+  background-color: #087096;
+}
+
+#welcome {
+  padding: 100px 0;
+}
+#welcome .head_master img {
+  width: 100%;
+}
+#welcome .head_master p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #087096;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#welcome .head_master h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #0B0849;
+  margin-left: 30px;
+}
+#welcome .welc_txt p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #087096;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+#welcome .welc_txt h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #0B0849;
+}
+#welcome .welc_txt .welc_des {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #087096;
+  text-transform: lowercase;
+  letter-spacing: 0px;
+}
+#welcome .welc_txt .welc_des span {
+  display: block;
+  margin-top: 50px;
+}
+
+#oCourse {
+  padding: 100px 0;
+  background-color: rgba(8, 112, 150, 0.146);
+}
+#oCourse .oC_head h2 {
+  padding: 0 0 50px;
+  font-family: "Teko", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0B0849;
+  text-align: center;
+}
+#oCourse .OC_slider {
+  position: relative;
+}
+#oCourse .OC_slider .slick-arrow {
+  position: absolute;
+  padding: 5px 20px;
+  border: 2px solid #0B0849;
+  background: transparent;
+  color: #0B0849;
+  transition: 0.3s;
+}
+#oCourse .OC_slider .slick-arrow:hover {
+  color: white;
+  background-color: #0B0849;
+}
+#oCourse .OC_slider .slick-prev {
+  bottom: 0;
+  left: 40%;
+  z-index: 1;
+}
+#oCourse .OC_slider .slick-next {
+  bottom: 0;
+  right: 40%;
+}
+#oCourse .OC_slider .OC_item {
+  margin: 0 10px 75px;
+}
+#oCourse .OC_slider .OC_item img {
+  width: 100%;
+}
+#oCourse .OC_slider .OC_item .crsd {
+  background-color: white;
+  padding: 0 30px;
+}
+#oCourse .OC_slider .OC_item .crsd h2 {
+  text-align: center;
+}
+#oCourse .OC_slider .OC_item .crsd h2 a {
+  margin-top: 30px;
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #0B0849;
+}
+#oCourse .OC_slider .OC_item .crsd p {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #087096;
+}
+#oCourse .OC_slider .OC_item .crsd p a {
+  color: #087096;
+}
+#oCourse .OC_slider .OC_item .crsd .see_course_d {
+  text-align: center;
+  padding-bottom: 30px;
+}
+#oCourse .OC_slider .OC_item .crsd .see_course_d a {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0B0849;
+  padding: 10px 40px;
+  border: 2px solid #0B0849;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+#oCourse .OC_slider .OC_item .crsd .see_course_d a:hover {
+  background-color: #0B0849;
+  color: white;
+}
+
+#teacher {
+  padding: 100px 0;
+}
+#teacher .teach_head {
+  text-align: center;
+}
+#teacher .teach_head h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0B0849;
+}
+#teacher .teacher_s {
+  margin-top: 50px;
+}
+#teacher .teacher_s .slick-arrow {
+  position: absolute;
+  padding: 5px 20px;
+  border: 2px solid #0B0849;
+  background: transparent;
+  color: #0B0849;
+  transition: 0.3s;
+}
+#teacher .teacher_s .slick-arrow:hover {
+  color: white;
+  background-color: #0B0849;
+}
+#teacher .teacher_s .slick-prev {
+  top: 0;
+  left: 40%;
+  z-index: 1;
+}
+#teacher .teacher_s .slick-next {
+  top: 0;
+  right: 40%;
+}
+#teacher .teacher_s .teacher_itm {
+  position: relative;
+  margin: 50px 10px 0px;
+}
+#teacher .teacher_s .teacher_itm img {
+  width: 100%;
+}
+#teacher .teacher_s .teacher_itm:hover .teacher_desc {
+  transform: scale(1);
+}
+#teacher .teacher_s .teacher_itm .teacher_desc {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  transform: translateX(-50%);
+  padding: 30px;
+  background-color: rgba(8, 112, 150, 0.581);
+  transform: scale(0);
+  transition: 0.4s;
+}
+#teacher .teacher_s .teacher_itm .teacher_desc h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+#teacher .teacher_s .teacher_itm .teacher_desc p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  font-style: italic;
+  text-transform: capitalize;
+}
+#teacher .teacher_s .teacher_itm .teacher_desc ul {
+  display: flex;
+}
+#teacher .teacher_s .teacher_itm .teacher_desc ul li a {
+  color: #0B0849;
+  font-size: 30px;
+  padding: 10px;
+  transition: 0.3s;
+}
+#teacher .teacher_s .teacher_itm .teacher_desc ul li a:hover {
+  color: white;
+}
+
+#ptest {
+  padding: 100px 0;
+  background: rgba(11, 8, 73, 0.146);
+}
+#ptest .test_head {
+  text-align: center;
+}
+#ptest .test_head h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0B0849;
+}
+#ptest .ptest_slider {
+  position: relative;
+}
+#ptest .ptest_slider .slick-dots {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#ptest .ptest_slider .slick-dots li button {
+  border: none;
+  font-size: 0;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+#ptest .ptest_slider .slick-dots .slick-active button {
+  background-color: #087096;
+}
+#ptest .ptest_slider .ptests_item {
+  margin: 50px 0;
+}
+#ptest .ptest_slider .ptests_item p {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #087096;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+#ptest .ptest_slider .ptests_item .test_pic {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+#ptest .ptest_slider .ptests_item .test_pic img {
+  width: 20%;
+  border-radius: 50%;
+}
+#ptest .ptest_slider .ptests_item .test_pic .test_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#ptest .ptest_slider .ptests_item .test_pic .test_name a {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #087096;
+}
+#ptest .ptest_slider .ptests_item .test_pic .test_name p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #087096;
+  font-style: italic;
+}
+
+#students {
+  padding: 100px 0;
+}
+#students .student_head {
+  text-align: center;
+}
+#students .student_head h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0B0849;
+}
+#students .students_main_slider {
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 430px;
+}
+#students .students_main_slider .student_track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: scroll 30s linear infinite;
+  display: flex;
+  gap: 10px;
+  width: 3250px;
+}
+#students .students_main_slider .student_track .stu_item {
+  background-color: pink;
+  text-align: center;
+  width: 500px;
+  height: 100%;
+}
+#students .students_main_slider .student_track .stu_item img {
+  width: 100%;
+}
+#students .students_main_slider .student_track .stu_item h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #0B0849;
+  padding: 20px 0 10px;
+  text-transform: uppercase;
+}
+#students .students_main_slider .student_track .stu_item p {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #087096;
+}
+#students .students_main_slider .student_track .stu_item a {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #087096;
+  font-style: italic;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  border: 2px solid #0B0849;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  transition: 0.3s;
+}
+#students .students_main_slider .student_track .stu_item a:hover {
+  background-color: #0B0849;
+  color: #fff;
+}
+@keyframes scroll {
+  from {
+    top: 0;
+    left: 100%;
+  }
+  to {
+    top: 0;
+    left: -300%;
+  }
+}
+#students .students_main .stu_main {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+#footer {
+  padding: 100px 0 0;
+  background-color: #BBBBBB;
+}
+#footer .foot_logo span {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+#footer .foot_logo p {
+  padding-top: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+#footer .foot_logo ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .foot_logo ul li {
+  display: flex;
+  gap: 15px;
+}
+#footer .foot_logo ul li span, #footer .foot_logo ul li a {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+#footer .foot_logo h3 {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 50px;
+}
+#footer .foot_logo .social {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-top: 10px;
+}
+#footer .foot_logo .social li a {
+  font-size: 40px;
+  transition: 0.3s;
+}
+#footer .foot_logo .social li a:hover {
+  color: pink;
+}
+#footer .foot_head {
+  text-align: center;
+  margin-top: 40px;
+}
+#footer .foot_head h2 {
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}
+#footer .foot_head ul {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .foot_head ul li a {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 5px 20px;
+  transition: 0.3s;
+}
+#footer .foot_head ul li a:hover {
+  background-color: #0B0849;
+}
+#footer .copy_right {
+  padding: 20px 0;
+  width: 100%;
+  background-color: #087096;
+  display: flex;
+  justify-content: center;
+}
+#footer .copy_right p {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0B0849;
+}
+#footer .copy_right p a {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

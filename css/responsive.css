@@ -1,0 +1,234 @@
+/* =============== INDEX PAGE START ============= */
+@media (max-width: 575.98px) { 
+    nav .navbar-brand {
+        font-size: 30px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    nav .nav_list {
+        gap: 5px;
+    }
+    nav .nav_list li a {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .log_reg{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 5px 0;
+        background-color: pink;
+    }
+    nav .log_reg a {
+        font-size: 12px;
+        padding: 3px 9px;
+    }
+    #banner {
+        padding: 40px 0;
+    }
+    #banner .banner_txt .bn_head {
+        height: 35px;
+    }
+    #banner .banner_txt .bn_head h1 {
+        font-size: 26px;
+        margin: 0;
+        padding: 0 5px 0 10px;
+    }
+    #banner .banner_txt p {
+        font-size: 12px;
+        padding: 6px 2px;
+        margin-top: 15px;
+    }
+    #banner .banner_txt .admit {
+        margin-top: 0px;
+    }
+    #banner .banner_txt .admit a {
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+    #welcome {
+        padding: 40px 0;
+    }
+    #welcome .head_master p {
+        font-size: 12px;
+        letter-spacing: 5px;
+        margin-top: 4px;
+        margin-left: 15px;
+    }
+    #welcome .head_master h2 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    #welcome .welc_txt p {
+        font-size: 12px;
+        letter-spacing: 10px;
+    }
+    #welcome .welc_txt h2 {
+        font-size: 20px;
+    }
+    #welcome .welc_txt .welc_des {
+        font-size: 0;
+    }
+    #oCourse {
+        padding: 40px 0;
+    }
+    #oCourse .oC_head h2 {
+        padding: 0 0 10px;
+        font-size: 24px;
+    }
+    #oCourse .OC_slider .OC_item .crsd h2 a {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #oCourse .OC_slider .OC_item .crsd p {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    #oCourse .OC_slider .OC_item {
+        margin: 0 10px 50px;
+    }
+    #oCourse .OC_slider .OC_item .crsd .see_course_d a {
+        font-size: 12px;
+        padding: 6px 0px;
+        border: 1px solid #0B0849;
+        border-radius: 5px;
+        width: 100%;
+    }
+    #oCourse .OC_slider .slick-prev {
+        left: 25%;
+    }
+    #oCourse .OC_slider .slick-next {
+        right: 25%;
+    }
+    #oCourse .OC_slider .slick-arrow {
+        padding: 3px 15px;
+        border: 1px solid #0B0849;
+    }
+    #teacher {
+        padding: 40px 0;
+    }
+    #teacher .teach_head h2 {
+        font-size: 24px;
+    }
+    #teacher .teacher_s .slick-prev {
+        left: 25%;
+    }
+    #teacher .teacher_s .slick-next {
+        right: 25%;
+    }
+    #teacher .teacher_s .slick-arrow {
+        padding: 3px 15px;
+        border: 1px solid #0B0849;
+    }
+    #ptest .test_head h2 {
+        font-size: 24px;
+    }
+    #ptest {
+        padding: 40px 0;
+    }
+    #ptest .ptest_slider .ptests_item p {
+        font-size: 12px;
+        width: 80%;
+    }
+    #ptest .ptest_slider .ptests_item .test_pic .test_name a {
+        font-size: 15px;
+    }
+    #ptest .ptest_slider .ptests_item .test_pic .test_name p {
+        font-size: 10px;
+    }
+    #ptest .ptest_slider .slick-dots li button {
+        height: 5px;
+        width: 5px;
+    }
+    #students {
+        padding: 40px 0;
+    }
+    #students .student_head h2 {
+        font-size: 24px;
+    }
+    #students .students_main_slider {
+        margin-top: 20px;
+        height: 350px;
+    }
+    #students .students_main_slider .student_track .stu_item h3 {
+        font-size: 15px;
+        padding: 10px 0 0px;
+    }
+    #students .students_main_slider .student_track .stu_item p {
+        font-size: 12px;
+    }
+    #students .students_main_slider .student_track .stu_item a {
+        font-size: 12px;
+        padding: 6px 25px;
+        margin-bottom: 24px;
+        border: 1px solid #0B0849;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-top: 10px;
+    }
+    #footer {
+        padding: 40px 0 0;
+    }
+    #footer .foot_logo span {
+        font-size: 25px;
+    }
+    #footer .foot_logo p {
+        padding-top: 20px;
+        font-size: 5px;
+    }
+    #footer .foot_head h2 {
+        font-size: 20px;
+    }
+    #footer .foot_head ul li a {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    #footer .foot_head ul {
+        gap: 0px;
+    }
+    #footer .foot_logo ul li span, #footer .foot_logo ul li a {
+        font-size: 6px;
+    }
+    #footer .foot_logo ul {
+        margin-top: 16px;
+        gap: 5px;
+    }
+    #footer .foot_logo ul li {
+        display: flex;
+        gap: 3px;
+    }
+    #footer .foot_logo h3 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    #footer .foot_logo .social li a {
+        font-size: 25px;
+    }
+    #footer .copy_right {
+        padding: 10px 0;
+        margin-top: 30px;
+    }
+    #footer .copy_right p {
+        font-size: 12px;
+    }
+ }
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 767.98px) and (max-width: 991.98px) {  }
+@media (min-width: 991.98px) and (max-width: 1199.98px) {  }
+@media (min-width: 1200px){  }
+/* =============== INDEX PAGE ENDED ============= */
+
+
+
+
+@media (max-width: 575.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 767.98px) and (max-width: 991.98px) {  }
+@media (min-width: 991.98px) and (max-width: 1199.98px) {  }
+@media (min-width: 1200px){  }
+
+

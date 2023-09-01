@@ -1,0 +1,91 @@
+@import "../mixins/Mixin";
+@import "../variables/Variable";
+#students{
+    padding: 100px 0;
+    .student_head{
+        text-align: center;
+        h2{
+            @include head ($fw: 700 , $fs: 48px ,$clr: $primary_color);
+        }
+    }
+    .students_main_slider{
+        margin-top: 50px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 430px;
+        .student_track{
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-animation: scroll 30s linear infinite;
+            animation: scroll 30s linear infinite;
+            display: flex;
+            gap: 10px;
+            width: calc(250px * 13);
+            .stu_item{
+                background-color: pink;
+                text-align: center;
+                width: 500px;
+                height: 100%;
+                img{
+                    width: 100%;
+                }
+                h3{
+                    @include head ($fw: 500 , $fs: 30px ,$clr: $primary_color);
+                    padding: 20px 0 10px;
+                    text-transform: uppercase;
+                }
+                p{
+                    @include descrip ($fw: 400 , $fs: 18px , $clr: $secondery_color);
+                }
+                a{
+                    @include descrip ($fw: 400 , $fs: 18px , $clr: $secondery_color);
+                    font-style: italic;
+                    padding: 10px 30px;
+                    margin-bottom: 30px;
+                    border: 2px solid $primary_color;
+                    border-top-right-radius: 16px;
+                    border-bottom-left-radius: 16px;
+                    transition: .3s;
+                    &:hover{
+                        background-color: $primary_color;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        @-webkit-keyframes scroll {
+            from{
+                top: 0;
+                left: 100%;
+            }
+            to {
+                top: 0;
+                left: -300%;
+            }
+          }
+        @keyframes scroll {
+            from {
+                top: 0;
+                left: 100%;
+            }
+            to {
+                top: 0;
+                left: -300%;
+            }
+        }        
+    }
+    .students_main{
+        .stu_main{
+            margin-top: 40px;
+            display: flex;
+            gap: 30px;
+
+        }
+    }
+}
+
+
+
+  

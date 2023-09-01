@@ -1,0 +1,78 @@
+@import "../variables/variable";
+@import "../mixins/mixin";
+#oCourse{
+    padding: 100px 0;
+    background-color: rgba(8, 112, 150, 0.146);
+    .oC_head{
+        h2{
+            padding:  0 0 50px;
+            @include  head ($fw: 700 , $fs: 48px ,$clr: $primary_color);
+            text-align: center;
+        }
+    }
+    .OC_slider{
+        position: relative;
+        .slick-arrow{
+            position: absolute;
+            padding: 5px 20px;
+            border: 2px solid $primary_color;
+            background: transparent;
+            color: $primary_color;
+            transition: .3s;
+            &:hover{
+                color: white;
+                background-color: $primary_color;
+            }
+        }
+        .slick-prev{
+            bottom: 0;
+            left: 40%;
+            z-index: 1;
+        }
+        .slick-next{
+            bottom: 0;
+            right: 40%;
+        }
+        .OC_item{
+            margin: 0 10px 75px ;
+            img{
+                width: 100%;
+            }
+            .crsd{
+                background-color: white;
+                padding: 0 30px;
+                h2{
+                    text-align: center;
+                    a{
+                        margin-top: 30px;
+                        @include  head ($fw: 400 , $fs: 40px ,$clr: $primary_color);
+                    }
+                }
+                p{
+                    padding: 20px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    @include descrip ($fw: 400 , $fs: 18px , $clr: $secondery_color);
+                    a{
+                        color: $secondery_color;
+                    }
+                }
+                .see_course_d{
+                    text-align: center;
+                    padding-bottom: 30px;
+                    a{
+                        @include descrip ($fw: 400 , $fs: 18px , $clr: $primary_color);
+                        padding: 10px 40px;
+                        border: 2px solid $primary_color;
+                        border-radius: 10px;
+                        transition: .3s;
+                        &:hover{
+                            background-color: $primary_color;
+                            color: white;
+                        }
+                    }                   
+                }
+            }
+        }
+    }
+}
